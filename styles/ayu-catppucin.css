@@ -24,19 +24,19 @@
     --icon: 3vh;
     /* Icon Size */
     /* Fonts Color */
-    --fg: #000000;
+    --fg: #5C6166;
     /* Foreground color */
     --sfg: #ffffff;
     /* Sceondary Foreground color */
     /* Light Colors  */
     --accent: #399EE6;
     /* Hover color */
-    --background: rgba(245, 245, 245, 0.4);
+    --background: #FCFCFC;
     /* Background color */
-    --cards: rgba(199, 199, 199, 0.4);
+    --cards: #F8F9FA;
     /* Cards color */
-    /* Image background  */
-    --imgbg: url(https://th.bing.com/th/id/OIP.bN7ySFqHA3m9owZa_bUpLAHaEK?pid=ImgDet&rs=1);
+    /* Image background (Uncommet this)  */
+    /*--imgbg: url(https://th.bing.com/th/id/OIP.bN7ySFqHA3m9owZa_bUpLAHaEK?pid=ImgDet&rs=1);
     /* Image URL */
     --imgcol: linear-gradient( rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
     /* Filter color */
@@ -48,12 +48,12 @@
     /* Hover color */
     --background: #1A1826;
     /* Background color */
-    --cards: #161320;
+    --cards: #1E1E2E;
     /* Cards color */
     /* Fonts Color */
-    --fg: #d8dee9;
+    --fg: #D9E0EE;
     /* Foreground color */
-    --sfg: #2c292e;
+    --sfg: #161320;
     /* Secondary Foreground color */
     /* Image background  */
     --imgcol: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
@@ -126,7 +126,8 @@ body {
 
 .card {
     background-color: var(--cards);
-    border-radius: 7px;
+    border-radius: 5px;
+    border: 3px var(--fg) solid;
 }
 
 .card:hover {
@@ -159,8 +160,8 @@ body {
     margin-top: 40px;
     margin-bottom: 30px;
     background: var(--cards);
-    border: none;
-    border-radius: 7px;
+    border: 3px solid var(--fg);
+    border-radius: 5px;
     width: 445%;
     height: 50px;
     color: var(--fg);
@@ -180,6 +181,7 @@ body {
 .search:focus {
     background: var(--accent);
     color: var(--sfg);
+    font-size: 20px;
 }
 
 .date {
