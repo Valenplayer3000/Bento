@@ -13,4 +13,4 @@
 - [x] Add Bento's default themes
 - [x] Remove unused fonts (Like google font)
 - [x] Update Ayu-Catppucin with monospaced fonts
-- [ ] Add Borders and Fix Cards for Ayu-Catppucin
+- [x] Add Borders and Fix Cards for Ayu-Catppucin
