@@ -221,6 +221,7 @@ body {
     margin-bottom: 30px;
     background: var(--cards);
     border: none;
+    display: none;
     border-radius: 7px;
     width: 445%;
     height: 50px;
