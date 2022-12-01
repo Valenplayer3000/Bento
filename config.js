@@ -17,10 +17,10 @@ const CONFIG = {
     twelveHourFormat: true,
 
     // Greetings
-    greetingMorning: 'Good morning!',
-    greetingAfternoon: 'Good afternoon,',
+    greetingMorning: 'Good mowning ',
+    greetingAfternoon: 'Good aftewnoon,',
     greetingEvening: 'Good evening,',
-    greetingNight: 'Go to Sleep!',
+    greetingNight: 'Go to Sweep!',
 
     // Layout
     bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
@@ -96,9 +96,9 @@ const CONFIG = {
         },
         {
             id: '2',
-            name: 'twitter',
-            icon: 'twitter',
-            link: 'https://twitter.com/',
+            name: 'Miruku',
+            icon: 'message-circle',
+            link: 'https://miruku.cafe/',
         },
         {
             id: '3',
